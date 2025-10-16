@@ -1,0 +1,44 @@
+.footer {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  background-color: white;
+  color: #242424;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  padding: 25px 0 0;
+  margin-top: auto;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-bottom: 10px;
+}
+
+.footer-nav a {
+  color: #242424;
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  transition: color 0.2s ease;
+}
+
+.footer-nav a:hover {
+  color: #26D2EF;
+}
+
+.footer-text {
+  font-size: 0.95rem;
+  color: #242424;
+}
+
+.footer-text strong {
+  color: #242424;
+  font-weight: 700;
+}

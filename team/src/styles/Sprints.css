@@ -1,0 +1,34 @@
+.sprint {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+.sprint .container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.sprint .divider {
+  width: 80px;
+  height: 4px;
+  background: #26D2EF;
+  margin: 0 auto 30px;
+  border-radius: 3px;
+}
+
+.sprint h1 {
+  font-size: 2.4rem;
+  color: #26D2EF;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.sprint h2 {
+  font-size: 3.5rem;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}

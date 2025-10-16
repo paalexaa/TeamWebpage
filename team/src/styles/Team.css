@@ -1,0 +1,32 @@
+.team {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+.team .container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.team .divider {
+  width: 80px;
+  height: 4px;
+  background: #26D2EF;
+  margin: 0 auto 30px;
+  border-radius: 3px;
+}
+
+.team h1 {
+  font-size: 2.4rem;
+  color: #26D2EF;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.team p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 25px;
+}
