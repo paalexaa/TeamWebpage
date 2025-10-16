@@ -1,5 +1,6 @@
 .documents-table-wrapper {
-  margin-top: 40px;
+  margin-top: 40px auto;
+  overflow-x: auto;
 }
 
 .docs-table {
@@ -48,3 +49,5 @@
 .docs-table .icon:hover {
   transform: scale(1.1);
 }
+
+

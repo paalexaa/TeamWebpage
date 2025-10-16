@@ -38,3 +38,18 @@
   line-height: 1.7;
   margin-bottom: 25px;
 }
+
+@media (max-width: 768px) {
+
+  .documents h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+
+  .documents p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-align: justify;
+  }
+}
