@@ -72,3 +72,40 @@
   height: 30px;
   filter: brightness(0) invert(1);
 }
+
+@media (max-width: 768px) {
+  .timeline {
+    padding: 20px 0;
+  }
+
+  .timeline::after {
+    left: 50px;
+  }
+
+  .timeline-item {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+    margin-bottom: 40px;
+  }
+  .timeline-item.left {
+    left: 10%;
+    padding-right: 80px;
+  }
+  .timeline-item.right {
+    left: 0;
+    padding-left: 85px;
+  }
+
+  .timeline-icon {
+    left: 20px;
+    top: 0;
+    transform: translateY(0);
+  }
+
+  .timeline-content {
+    margin-top: 20px;
+    max-width: 85%;
+  }
+}

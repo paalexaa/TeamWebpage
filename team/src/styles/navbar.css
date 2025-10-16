@@ -43,3 +43,66 @@
 .navbar-menu .active {
   color: #26D2EF;
 }
+
+.burger {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu {
+  display: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+@media (max-width: 768px) {
+  .navbar-logo {
+    height: 60px;
+  }
+
+  .navbar-menu {
+    display: none;
+  }
+  .burger {
+    display: flex;
+  }
+  .icon {
+  width: 20px;
+  height: 20px;
+  transition: transform 0.2s ease;
+  }
+
+  .menu {
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .menu.open {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  position: absolute;
+  top: 80px;
+  left: 0;
+  width: 100%;
+  background: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  padding: 20px 0;
+  z-index: 999;
+  }
+  .menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    font-size: 16px;
+  }
+}
+
